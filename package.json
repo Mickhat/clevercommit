@@ -3,6 +3,7 @@
   "displayName": "CleverCommit",
   "description": "CleverCommit is an innovative Visual Studio Code extension that automatically generates meaningful and accurate Git commit messages using OpenAI. The extension analyzes the changes in your project, extracts the most relevant information, and leverages OpenAI technology to create an appropriate commit message. Save time and effort in documenting your work and enhance the traceability of your commits with CleverCommit.",
   "publisher": "Mickhat",
+  "repository": "https://github.com/Mickhat/clevercommit",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.77.0"
