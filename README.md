@@ -1,65 +1,48 @@
-# clevercommit README
+# CleverCommit
 
-This is the README for your extension "clevercommit". After writing up a brief description, we recommend including the following sections.
+CleverCommit is a Visual Studio Code extension that uses OpenAI's natural language processing models to generate commit messages for code changes. With CleverCommit, you can save time and increase productivity by automating the commit message creation process, leaving you with more time to focus on writing code.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Generates commit messages using OpenAI's state-of-the-art natural language processing models
+- Supports multiple models, including the popular GPT-3 and Codex models
+- Configurable max tokens, n-gram size, stop tokens, and temperature settings for fine-tuned results
+- Automatically commits changes to the active Git repository
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+To install the CleverCommit extension, follow these steps:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Open Visual Studio Code
+2. Press `Ctrl + Shift + X` or `Cmd + Shift + X` to open the Extensions view
+3. Search for "CleverCommit" and click "Install"
 
-## Requirements
+## Usage
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+To use the CleverCommit extension, follow these steps:
 
-## Extension Settings
+1. Open a file in the active Git repository
+2. Select the code changes you want to commit
+3. Press `Ctrl + Shift + P` or `Cmd + Shift + P` to open the Command Palette
+4. Type "CleverCommit" and select "CleverCommit: Auto Commit" from the list of options
+5. Wait for CleverCommit to generate a commit message
+6. Review and edit the commit message if necessary
+7. Press `Enter` to commit the changes to the repository
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Support
 
-For example:
+If you encounter any issues with the CleverCommit extension, please file an issue on the [GitHub repository](https://github.com/Mickhat/clevercommit).
 
-This extension contributes the following settings:
+## Contributing
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+We welcome contributions from the community. To contribute to CleverCommit, please follow these steps:
 
-## Known Issues
+1. Fork the [GitHub repository](https://github.com/Mickhat/clevercommit)
+2. Create a new branch for your feature or bug fix
+3. Make your changes and commit them to your branch
+4. Push your branch to your fork
+5. Open a pull request on the original repository
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## License
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+CleverCommit is licensed under the [MIT License](https://opensource.org/licenses/MIT).
